@@ -1,0 +1,307 @@
+@media (max-width:1199px){
+	.search-area{padding-left:14px;}
+	.search-form{width:218px;}
+	.navigation li{padding-right:30px;}
+	.service figure figcaption{padding:15px 20px;}
+	.service figure figcaption h3{
+		margin:0 0 10px;
+		padding:0 0 8px;
+		font-size:25px;
+		line-height:25px;
+	}
+	.service figure figcaption .description{margin:0 0 15px;}
+	.prodecto-img{margin-left:-80px;}
+	.prodecto-content h2{
+		font-size:35px;
+		line-height:40px;
+	}
+	.prodecto-content h2 span{
+		font-size:35px;
+		line-height:35px;
+	}
+	.vendedor-area .btn-area .btn{font-size:16px;}
+}
+@media (max-width:991px){
+	.slider .item .slider-content h1{
+		font-size:40px;
+		line-height:40px;
+	}
+	.owl-theme .owl-controls .owl-page span{width:100px;}
+	.mainheading h2{font-size:35px;}
+	.service figure figcaption h3{
+		font-size:20px;
+		line-height:20px;
+	}
+	.service figure figcaption{padding:10px 15px;}
+	.service figure figcaption .description p{
+		font-size:12px;
+		line-height:15px;
+	}
+	.service figure figcaption h3{
+		margin:0 0 7px;
+		padding:0 0 7px;
+	}
+	.prodecto{margin:0;}
+	.prodecto-img{margin:0 auto;}
+	.prodecto-img figure img{margin:0 auto}
+	.vendedor-area{margin:0 0 50px;}
+	.vendedor-area h2{font-size:35px;}
+	.footer-logo .logo{
+		margin:0;
+		padding:35px 0 0;
+	}
+	.footer-content{
+		float:left;
+		margin-left:50px;
+	}
+}
+@media (max-width:767px){
+	.navbar-default .navbar-toggle:focus,
+	.navbar-default .navbar-toggle:hover{ background:#fff;}
+	#nav .container{ position:relative;}
+	.navbar-toggle{
+		display:block;
+		color:#a78b28;
+		background:#fff;
+		float:right;
+		margin-right: 0;
+		margin-left:20px;
+		margin-top:18px;
+		border:1px solid #a78b28;
+	}
+	.navbar-toggle .icon-bar{ background:#a78b28;}
+	#bs-example-navbar-collapse-1{
+		position:absolute;
+		top:100%;
+		right:0;
+		background:#fff;
+		z-index:3;
+	}
+	.navbar-collapse.collapse {
+		display: none !important;
+		height: auto !important;
+		overflow: visible !important;
+		visibility: visible !important;
+	}
+	.navbar-header{
+		display:inline-block;
+		vertical-align:top;
+	}
+	.navbar-collapse ul{
+		max-width:250px;
+		width:100%;
+		margin:0;
+		background:#f4f4f4;
+	}
+	#nav .navbar-collapse ul li{
+		width:100%;
+		margin:0;
+		padding:15px;
+		
+	}
+	.navigation li a i{
+		margin:0;
+		float:right
+	}
+	.navbar-collapse {
+		border-top: 0;
+		box-shadow: none;
+		overflow-x: visible;
+		padding-left: 15px;
+		padding-right: 15px;
+		float:right;
+	}
+	.navbar-collapse.collapse.in {display:block !important;}
+	#nav ul li .dropdown{
+		width:100%;
+		left:0;
+		z-index:3;
+	}
+	.navigation li .dropdown{background:#f4f4f4;}
+	#nav ul li:hover .dropdown{
+		top:99%;
+		left:50%;
+		background:#a78b28;
+
+	}
+	.navigation li .dropdown li:hover .magamenu-area{
+		top:80%;
+		left:25%;
+		z-index:6;
+	}
+	.navigation li .dropdown li:hover .magamenu-area ul{
+		background:#78631a;
+	}
+	#nav .navbar-collapse ul li:hover .magamenu-area ul{
+		background:transparent;
+	}
+	.slider .item .slider-content h1{
+		font-size:40px;
+		line-height:40px;
+	}
+	.mainheading h2{font-size:30px;}
+	.mainheading .description p{
+		font-size:13px;
+		line-height:17px;
+	}
+	.service figure figcaption{
+		padding:55px 30px;
+		right:25px;
+	}
+	.service figure img{margin:0 auto;}
+	.service figure figcaption h3 {
+		font-size: 25px;
+		line-height: 25px;
+		margin:0 0 14px;
+		padding: 0 0 14px;
+	}
+	.service figure figcaption .description p{
+		font-size:14px;
+		line-height:20px;
+	}
+	.prodecto-content h2 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.vendedor-area h2{
+		font-size:30px;
+		line-height:40px;
+	}
+	.clearfix{display:block;}
+	.col{margin:0 0 30px;}
+	.owl-pagination{display:none;}
+	.owl-theme .owl-controls .owl-buttons{display:none;}
+}
+@media (max-width:639px){
+	.logo{
+		width:100px;
+		margin-bottom:0;
+	}
+	.slider .item .slider-content{padding:0 15% 0 25%;}
+	.slider .item .slider-content h1{
+		font-size:30px;
+		line-height:30px;
+	}
+	.mainheading h2{
+		font-size:25px;;
+		line-height:30px;
+	}
+	.service figure figcaption {
+		padding: 50px 30px;
+		right: 0;
+	}
+	.vendedor-area h2 {
+		font-size: 25px;
+		line-height: 30px;
+		margin:0 0 45px;
+	}
+}
+@media (max-width:567px){
+		.search-area{
+		float:left;
+		width:100%;
+	}
+	.search-form{width:300px;}
+	.aboutus{padding:40px 0;}
+	.service figure figcaption {
+		padding: 20px 20px;
+	}
+	.service figure figcaption h3 {
+		font-size:20px;
+		line-height:23px;
+		margin: 0 0 7px;
+		padding: 0 0 7px;
+	}
+	.prodecto-img figure img{width:100%;}
+	.prodecto-content h2 span {
+		font-size: 30px;
+		line-height: 30px;
+		margin:30px 0 0;
+	}
+	.prodecto-content h2 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.vendedor-area h2{font-size:24px;}
+}
+@media (max-width:479px){
+	.search-form{width:260px;}
+	.btn-area {
+		float: left;
+		margin: 15px auto 0;
+		width: 100%;
+		text-align:center;
+	}
+	.btn-area .btn{margin:0 auto;}
+	.slider .item .slider-content h1 {
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.slider .item .slider-content .description p {
+		color: #fff;
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.aboutus{padding:30px 0;}
+	.mainheading h2 {
+		font-size: 18px;
+		line-height: 23px;
+	}
+	.mainheading .description p {
+		font-size: 11px;
+		line-height: 15px;
+	}
+	.aboutus-content .description p{
+		font-size:12px;
+		line-height:15px;
+	}
+	.section-padding {padding: 30px 0;}
+	.service-area{margin:0;}
+	.service figure figcaption{padding:8px 15px;}
+	.service figure figcaption h3{
+		font-size:15px;
+		line-height:18px;
+	}
+	.service figure figcaption .description{margin:0 0 5px;}
+	.service figure figcaption .description p{
+		font-size:11px;
+		line-height:14px;
+	}
+	.service figure figcaption .btn{
+		font-size:12px;
+		line-height:22px;
+		height:22px;
+		width:80px;
+	}
+	.prodecto-content{padding:35px 0 60px;}
+	.prodecto-content h2 {
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.prodecto-content h2 span {
+		font-size: 22px;
+		line-height: 25px;
+		margin: 25px 0 0;
+	}
+	.franchise{padding:40px 0;}
+	.vendedor-area h2 {
+		font-size: 22px;
+		line-height: 26px;
+		margin: 0 0 35px;
+	}
+	.footer-logo .logo{width:100%;}
+	.footer-logo .logo img{margin:0 auto;}
+	.logo-content h4{font-size:18px;}
+	.logo-content {
+		float: left;
+		width: 100%;
+		padding: 35px 0 0px;
+		margin: 0;
+	}
+	.footer-content{margin-left:20px;}
+	.bottom-bar span{
+		width:100%;
+		text-align:center;
+		}
+}
+@media (max-width:360px){}

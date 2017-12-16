@@ -1,0 +1,841 @@
+/* =============================================
+			Theme Reset Style
+============================================= */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:300,400,500,600,700,800');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html,
+body {
+	position: relative;
+	overflow-x: hidden;
+}
+body {
+	color: #434343;
+	background: #fff;
+	font:400 14px/17px 'Lato', Arial, Helvetica, sans-serif;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+	color: #fff;
+	margin: 0 0 8px;
+	font-weight: 400;
+	line-height: 1.5;
+	font-style: normal;
+	text-transform:none;
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	
+}
+h1 { font-size: 18px;}
+h2 { font-size: 17px;}
+h3 { font-size: 16px;}
+h4 { font-size: 14px;}
+h5 { font-size: 13px;}
+h6 { font-size: 12px;}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a { color: #fff;}
+p a {}
+p a:hover {text-decoration:underline;}
+p {
+	letter-spacing: normal;
+	line-height: 20px;
+}
+a {text-decoration: none;}
+a:hover, a:focus, a:active{
+	outline: none;
+	text-decoration: none;
+}
+ul { margin: 0; }
+figure {
+	margin-bottom: 6px;
+	position: relative;
+}
+img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+}
+strong { color: #fddb2b; }
+iframe {
+	border: none;
+	float: left;
+	width: 100%;
+}
+.wp-caption,
+.wp-caption-text,
+.gallery-caption,
+.bypostauthor {}
+.wp-caption.alignleft,
+.wp-caption.alignnone { width: 100%; }
+button {
+	border: none;
+	outline: none;
+}
+textarea,
+select,
+.tg-select select,
+.form-control,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+	color: #686c76;
+	outline: none;
+	height: 48px;
+	font-size: 15px;
+	-webkit-border-radius: 0;
+			border-radius: 0;
+	-webkit-box-shadow: none;
+			box-shadow: none;
+	line-height: 20px;
+	padding: 7px 9px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 2px solid #ddd;
+	background: transparent;
+	text-transform: capitalize;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.form-group{ margin:0 0 20px;}
+.form-control::-moz-placeholder{
+	text-transform: capitalize;
+	color: #686c76;
+}
+input:focus,
+select:focus,
+.form-control:focus{
+	color: #686c76;
+	border-color: #DDD;
+	-webkit-box-shadow: none !important;
+			box-shadow: none !important;
+}
+select{
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	text-transform:capitalize;
+}
+/* =============================================
+			Theme Style
+============================================= */
+.wrapper{
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	padding: 60px 0 0 315px;
+}
+.haslayout{
+	width:100%;
+	float: left;
+}
+.verticlealignmiddle{
+	margin: 0 -2px;
+	float: none !important;
+	display: inline-block;
+	vertical-align: top;
+}
+.btn{
+	color: #fff;
+	height: 45px;
+	font-size: 15px;
+	padding: 0 20px;
+	font-weight: 600;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 30px;
+	background: #6bb242;
+	border: 1px solid #6bb242;
+	text-transform: capitalize;
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	-webkit-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+.btn:hover{
+	background: transparent;
+	color: #6bb242;
+}
+.btn:focus, .btn.focus{color: #fff;}
+.btn-lg{
+	width:100%;
+	padding: 0;
+}
+.mainheading{
+	width: 100%;
+	float: left; 
+	text-align: center;
+}
+.mainheading h2{
+	margin: 0;
+	padding: 0;
+	color: #a68b28;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 40px;
+	text-align: center;
+	position: relative;
+	text-transform: uppercase;
+}
+.description{
+	float: left;
+	width: 100%;
+}
+.description p{
+	margin: 0;
+}
+.section-padding{padding: 50px 0;}
+.section-list{
+	float: left;
+	width: 100%;
+	list-style: none;
+}
+.section-list li{
+	list-style-type: none;
+	width: 100%;
+	float: left;
+	position: relative;
+	font-size: 20px;
+	line-height: 23px;
+	color: #9ea2ad;
+	padding: 8px 0 8px 40px;
+}
+.section-list li:after{
+	top: 0;
+	left: 0;
+	content: '\f05d';
+	position: absolute;
+	margin: 10px 0 0;
+	color: #ed7d31;
+	font-size: 20px;
+	font-family: fontawesome;
+}
+/* =============================================
+			Header Style
+============================================= */
+.header{
+	top: 0;
+	left: 0;
+	z-index: 2;
+	position: fixed;
+}
+.mainheader{
+	float: left;
+	width: 100%;
+	padding:0 30px 0 0;
+	background:#6bb242;
+}
+.logo{
+	z-index: 2;
+	float: left;
+	width: 315px;
+	padding:15px 0;
+	text-align:center;
+	background:#191d17;
+	position: relative;
+}
+.logo a,
+.logo a img{
+	display: block;
+	margin: 0 auto;
+}
+.search-area{
+	float: left;
+	padding: 8px 0 16px;
+	margin-left: 400px;
+	background: transparent;
+}
+.search-form{
+	margin:0;
+	float: left;
+	width: 300px;
+	overflow: hidden;
+	position: relative;
+}
+.search-form fieldset{
+	float: left;
+	width: 100%;
+}
+.search-form fieldset .form-control{
+	border: 0;
+	color: #fff;
+	height: 35px;
+	line-height: 35px;
+	position: relative;
+	padding: 0 20px 0 0;
+	background: transparent;
+	border-bottom: 1px solid #89c168;
+}
+.form-control::-moz-placeholder{color:#fff;}
+.form-control:-ms-input-placeholder{color:#fff;}
+.form-control::-webkit-input-placeholder{color:#fff;}
+.search-form fieldset button{
+	top: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+	color: #fff;
+	font-size: 16px;
+	background: none;
+	padding: 9px 10px;
+	position: absolute;
+}
+.nav{float: right;}
+.nav .collapse{padding: 0;}
+.navigation{
+	float: left;
+	width: 100%;
+	list-style: none;
+}
+.navigation li{
+	color: #fff;
+	float: left;
+	padding:20px; 
+	font-size:14px;
+	font-weight: 600;
+	line-height: 18px;
+	position: relative;
+	list-style-type: none;
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+}
+.navigation li a{
+	color: inherit;
+	display: block;
+	transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+}
+.navigation li:hover{
+	color: #32362f;
+	transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+}
+.btn-area{
+	float: right;
+	padding: 13px 0;
+}
+.btn-area .login-btn{
+	color: #fff;
+	height: 32px;
+	font-size: 14px;
+	padding: 0 15px;
+	margin: 0 10px 0 0;
+	font-weight: 600;
+	line-height: 28px;
+	border-radius: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 2px solid #fff;
+	transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+}
+.btn-area .login-btn:hover{
+	color: #67ab40;
+	background: #fff;
+	transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+}
+.account-btn{
+	height: 32px;
+	color: #67ab40;
+	font-size: 14px;
+	padding: 0 15px;
+	margin: 0 10px 0 0;
+	font-weight: 600;
+	line-height: 28px;
+	border-radius: 30px;
+	background: #191d17;
+	display: inline-block;
+	vertical-align: middle;
+	border: 2px solid #191d17;
+	transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+}
+.account-btn:hover{
+	color: #191d17;
+	background: transparent;
+	transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+}
+/*==============================================
+		Dashboard Sidebar Navigation Style		
+==============================================*/
+.btc-verticalscrollbar {
+	float: left;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.btc-sidebarwrapper .mCSB_inside > .mCSB_container {margin-right: 0;}
+.btc-sidebarwrapper .mCSB_scrollTools {width: 0;}
+.mCSB_scrollTools {overflow: hidden;}
+.btc-dashboardnav{
+	width: 100%;
+	float: left;
+}
+.btc-wrapper {
+	overflow: hidden;
+	padding: 0 0 0 230px;
+}
+.btc-sidebarwrapper {
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 315px;
+	height: 100%;
+	position: fixed;
+	padding: 65px 0 0;
+	background: rgba(0,0,0,0.9);
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		 -o-backface-visibility: hidden;
+			backface-visibility: hidden;
+}
+.btc-btnmenutoggle{
+	float: left;
+	cursor: pointer;
+}
+.btc-navdashboard {
+	width: 100%;
+	float: left;
+	margin: 20px 0 0;
+	font-size: 14px;
+	line-height: 17px;
+}
+.btc-navdashboard ul{
+	width: 100%;
+	float: left;
+	list-style: none;
+	line-height: inherit;
+}
+.btc-navdashboard ul li {
+	margin: 0;
+	width: 100%;
+	float: left;
+	padding: 20px 35PX;
+	border-bottom: 1px solid #21261e;
+	position: relative;
+	line-height: inherit;
+	list-style-type: none;
+
+}
+.btc-navdashboard > ul > li > a {
+	color: #fff;
+	width: 100%;
+	float: left;
+	line-height: inherit;
+}
+.btc-navdashboard > ul > li > a:before{ display: none; }
+.btc-navdashboard ul li a:focus,
+.btc-navdashboard ul li a:hover,
+.btc-navdashboard ul li a:sptive,
+.btc-navdashboard ul li.btc-active a{ color: #6bb242;}
+.btc-navdashboard ul li a i,
+.btc-navdashboard ul li a span{
+	float: left;
+	line-height: inherit;
+}
+.btc-navdashboard ul li a i{
+	width: 60px;
+	display: block;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #636b76;
+}
+.btc-navdashboard ul li a span{ text-align: left; }
+ .btc-wrapper.btc-openmenu { padding-left: 60px; }
+.btc-wrapper.btc-openmenu .btc-sidebarwrapper { width: 60px; } 
+/* ==========================================================================
+									Main Style
+========================================================================== */
+.main{background: #191d17;}
+/* =============================================
+			sidebar Style
+============================================= */
+.sidebar{
+	top: 0;
+	left: 0;
+	z-index: 999;
+	float: left;
+	width: 315px;
+	position: fixed;
+	background: #191d17;
+}
+.bitinfo{
+	float: left;
+	width: 100%;
+	background: #30342f;
+}
+.bitlistheader,
+.bitlist{
+	float: left;
+	width: 100%;
+	list-style: none;
+	border-bottom: 1px solid #191d17;
+}
+.bitlistheader li,
+.bitlist li{
+	float: left;
+	color: #fff;
+	width: 33.33%;
+	font-size: 16px;
+	padding: 10px 0;
+	line-height: 19px;
+	text-align: center;
+}
+.bitlistheader li:first-child{border-right: 1px solid #191d17;}
+.bitlistheader li:last-child{border-left: 1px solid #191d17;}
+.bitlist{
+	border: 0;
+	padding: 15px 0;
+}
+.bitlist li{
+	border: 0;
+	padding: 5px 0;
+	font-size: 14px;
+	line-height: 18px;
+}
+.buyorder{
+	float: left;
+	width: 100%;
+}
+.title{
+	float: left;
+	width: 100%;
+	padding: 18px 0;
+}
+.title h2{
+	margin: 0;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21px;
+	text-align: center;
+}	
+.buyorder .bitlist{
+	padding: 15px 0;
+	height: 150px;
+	overflow-y: scroll;
+}
+.buyorder .bitlistheader li{color: #6bb242;}
+.buyorder .bitlistheader li,
+.buyorder .bitlist li{width: 50%;}
+.bitinfo-list{
+	float: left;
+	width: 100%;
+}
+.bitinfo-list .bitlist li{border-top: 1px solid #191d17;}
+/* =============================================
+			TTT and BTC Style
+============================================= */
+.tttandbtc{padding: 20px 0;}
+.btccontent-box{
+	float: left;
+	width: 100%;
+}
+.btccontent-box .bitlistheader li span{color: #6bb242;}
+.btccontent-box .title{
+	padding: 18px 20px;
+	background:#21261e;
+}
+.btccontent-box .title h2{text-align: left;}
+.btccontent-box .title h2 i{margin-left: 10px;}
+.img-box{
+	float: left;
+	width: 100%;
+	padding: 35px 0;
+}
+.img-box figure{
+	margin: 0;
+	float: left;
+	width: 100%;
+}
+.img-box figure img{
+	display: block;
+	margin: 0 auto;
+}
+.col1{
+	float: left;
+	width: 100%;
+}
+.col2{
+	float: left;
+	width: 100%;
+}
+.col3{
+	float: left;
+	width: 100%;
+}
+.col2 ul{padding-right: 10px;}
+.col1 ul,
+.col2 ul,
+.col3 ul{
+	float: left;
+	width: 100%;
+	padding: 20px 0;
+	list-style: none;
+}
+.col1 ul li,
+.col2 ul li,
+.col3 ul li{
+	float: left;
+	width: 100%;
+	color: #fff;
+	padding: 5px 0;
+	font-size: 13px;
+	line-height: 16px;
+	list-style-type: none;
+}
+.col1 ul li span,
+.col2 ul li span,
+.col3 ul li span{
+	padding: 5px 0 0;
+	color: #6bb242;
+	display: block;
+}
+.col2 ul li a{
+	display: block;
+	color: #fff;
+}
+.col2 ul li a:hover{color: #6bb242;}
+.btccontentinfo-box{
+	float: left;
+	width: 100%;
+}
+.btccontentinfo-box .title{
+	width: 100%;
+	float: left;
+	background: #21261e;
+}
+.btccontentinfo-box .title ul{
+	float: left;
+	width: 100%;
+	list-style: non;
+}
+.btccontentinfo-box .title ul li{
+	width: 50%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	list-style: none;
+	line-height: 15px;
+}
+.btccontentinfo-box .bitlistheader li,
+.btccontentinfo-box .bitlist li{width: 100%;}
+.btccontentinfo-box .bitlistheader li span{
+	color: #6bb242;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+}
+.btccontentinfo-box .bitlist{padding: 52px 0;}
+.btccontentinfo-box .bitlist li{
+	font-size: 18px;
+	padding: 12px 0;
+	line-height: 21px;
+}
+/* =============================================
+			Chart Section Style
+============================================= */
+.chart-section,
+.trade-section{
+	padding: 15px 0;
+}
+.buyselltab-box{
+	float: left;
+	width: 100%;
+}
+
+.buyselltab-box .bitlistheader{
+	float: left;
+	width: 100%;
+}
+.buyselltab-box .bitlistheader li{
+	float: left;
+	width: 50%;
+	margin:0;
+	padding: 0;
+}
+.buyselltab-box .bitlistheader li a{
+	margin:0;
+	border:0;
+	color: #fff;
+	font-size: 18px;
+	padding: 20px 0;
+	border-radius: 0;
+	line-height: 21px;
+	text-align: center;
+	background: #1f241d;
+}
+.buyselltab-box .bitlistheader li:hover a,
+.buyselltab-box .bitlistheader li.active a{
+	border:0;
+	color: #6bb242;
+	background: #32362f;
+}
+.buyselltab,
+.tab-pane{
+	float: left;
+	width: 100%;
+}
+.tab-pane{
+	padding: 30px 10px 0;
+	background: #32362f;
+}
+.buyandsell-form,
+.buyandsell-form fieldset{
+	float: left;
+	width: 100%;
+}
+.buyandsell-form label{
+	float: left;
+	width: 100%;
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 10px
+}
+.buyandsell-form .form-control{
+	border:0;
+	color: #fff;
+	width: 100%;
+	height: 43px;
+	font-size: 14px;
+	line-height: 43px;
+	text-align: center;
+	border-radius: 30px;
+	margin-bottom: 10px;
+	background: #252923;
+}
+.buyandsell-form .btn{width: 100%;}
+/* =============================================
+			Trade Style
+============================================= */
+.trade-section .title{background: #1f241d;}
+.trade-section .tradeinfo .bitlistheader li,
+.trade-section .tradeinfo .bitlist li{width: 16.66%;}
+.trade-section .tradeinfo .bitlistheader li:first-child{border-left: 0;}
+.trade-section .tradeinfo .bitlistheader li{border-left: 1px solid #191d17}
+/* =============================================
+			Funds page Style
+============================================= */
+.bg-img{
+	background: url(../images/background-img.jpg);
+	
+}
+.bg-color{background-color: rgba(25,29,23,0.9);}
+.bitcoin-box-area{padding: 30px 0;}
+.bitcoin-box{
+	float: left;
+	width: 100%;
+	margin:0 0 20px;
+}
+.bitcoin-box .title{
+	float: left;
+	width: 100%;
+	padding: 20px;
+	text-align: left;
+	background: #303e2e;
+}
+.bitcoin-box .title h2{
+	color: #fff;
+	font-size: 18px;
+	text-align: left;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+.bitcoin-content{
+	float: left;
+	width: 100%;
+	padding: 35px 30px;
+	background: rgba(0,0,0,0.9);
+}
+.bitcoin-content ul{
+	float: left;
+	list-style: none;
+}
+.bitcoin-content ul li{
+	margin: 0 7px;
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+.bitcoin-content ul li .round{
+	width: 33px;
+	height: 33px;
+	display: block;
+	background: #fff;
+	text-align: center;
+	border-radius: 50%;
+	border:1px solid #fff;
+}
+.bitcoin-content ul li .round.green{
+	background: #6bb242;
+	border-color: #6bb242;
+}
+.bitcoin-content ul li .round.green i{
+	color: #fff;
+}
+.bitcoin-content ul li .round.block{
+	background: #000;
+	border-color: #fff;
+}
+.bitcoin-content ul li .round.block i{color: #fff;}
+.bitcoin-content ul li .round i{
+	line-height: 33px;
+	color: #6bb242
+}
+.blance{
+	color: #fff;
+	float: right;
+	font-size: 13px;
+	padding: 20px 0 0;
+	line-height: 16px;
+}
